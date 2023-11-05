@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
+    show-sql: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:universityDb
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
